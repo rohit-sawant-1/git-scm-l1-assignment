@@ -1,2 +1,2 @@
-Line 1: Master version
-Line 2: Master content
+Line 1: Test version
+Line 2: Test content
