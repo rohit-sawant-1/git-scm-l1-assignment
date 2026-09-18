@@ -1,0 +1,31 @@
+Repository cross-check
+
+The three GitHub repositories are the same project lineage:
+
+l-rohittt-l/loan-application-management
+Latest main: a3682ea, “Fix a broken command in the Wipro setup guide”
+
+rohit-sawant-1/loan-management-version-2
+Latest main: d768d44, “An architecture walkthrough of the whole system”
+
+rohit-sawant-1/loan-management-two
+Latest main: 43e4be9, tag v2.4.1, “Count existing EMIs when the Risk Assessor judges affordability”
+
+GitHub’s comparison shows that loan-management-two contains all commits from the other two repositories and adds the newer affordability fix.
+
+The newer commit changes Phase 5’s Risk Assessor to count existing EMIs when calculating affordability, aligns it with Phase 1, and adds seven tests. It does not change the seeded application verdicts.
+
+Current local clone
+
+Path: C:\Users\RO20694750\Desktop\Loan Management V2\loan-management-version-2
+
+Remote fetch/push: https://github.com/rohit-sawant-1/loan-management-two.git
+Branch: main
+Local HEAD: 43e4be9
+main is aligned with origin/main
+No unpushed commits
+Two uncommitted local modifications remain:
+frontend/src/api/client.js
+frontend/src/components/MorningBriefing.jsx
+No stash remains; the local changes were restored successfully.
+Please compare this against the other local project folders and check whether they have different remotes, commits, uncommitted files, databases, configuration, or project-specific functions.
